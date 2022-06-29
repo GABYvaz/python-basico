@@ -14,7 +14,7 @@ if opcion == 1:
     dolares = pesos / valor_dolar
     dolares = round(dolares, 2)
     dolares = str(dolares)
-print("Tienes $" + dolares + "dolares")
+    print("Tienes $" + dolares + "dolares")
 if opcion == 2:
     pesos= input("Cuantos pesos argentinos tienes:")
     pesos= float(pesos)
@@ -22,7 +22,7 @@ if opcion == 2:
     dolares = pesos / valor_dolar
     dolares = round(dolares, 2)
     dolares = str(dolares)
-print("Tienes $" + dolares + "dolares")
+    print("Tienes $" + dolares + "dolares")
 if opcion == 3:
     pesos= input("Cuanntos pesos mexicanos tienes:")
     pesos= float(pesos)
@@ -30,7 +30,6 @@ if opcion == 3:
     dolares = pesos / valor_dolar
     dolares = round(dolares, 2)
     dolares = str(dolares)
-print("Tienes $" + dolares + "dolares")
+    print("Tienes $" + dolares + "dolares")
 else:
-    print("Ingrese una opcion correcta por favor
-    ")
+    print("Ingrese una opcion correcta por favor")
